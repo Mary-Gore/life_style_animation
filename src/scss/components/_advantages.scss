@@ -1,0 +1,31 @@
+section.advantages {
+  padding-top: 415px;
+}
+
+.advantages {
+  &__content {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__text {
+    margin-left: 50px;
+    max-width: 425px;
+
+    p:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    opacity: 1;
+  }
+
+  .big-star2 {
+    position: absolute;
+    top: 140px;
+    right: -100%;
+    transform: rotate(135deg);
+  }
+}
